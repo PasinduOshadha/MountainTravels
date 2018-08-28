@@ -1,0 +1,160 @@
+body {
+    font-family: raleway;
+}
+
+.cover {
+    height: 100vh;
+    background-image: url('assets/img/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.dark-mountain {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    transform: scale(1.1);
+}
+
+@media (max-width:574.98px) {
+    .hiker {
+        height: 50vh;
+        left: 30%;
+        bottom: -7px;
+    }
+
+    .cover-title {
+        margin-top: 1em;
+        width: 15em;
+    }
+
+    .logo {
+        width: 7em;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width:576px) and (max-width:766.98px) {
+    .hiker {
+        height: 50vh;
+        left: 40%;
+    }
+
+    .logo {
+        width: 10em;
+        margin-top: 2em;
+    }
+
+    .cover-title {
+        margin-top: 2.5em;
+        width: 15em;
+    }
+}
+
+@media (min-width:768px) and (max-width:990.98px) {
+    .hiker {
+        height: 50%;
+        left: 40%;
+        justify-content: center;
+        align-content: center;
+        transform: scale(1.1);
+    }
+
+    .cover-title {
+        margin-top: 2.5em;
+        width: 27em;
+    }
+
+    .logo {
+        width: 15em;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width:992px) and (max-width:1198.98px) {
+    .hiker {
+        height: 50vh;
+        left: 38%;
+        transform: scale(1.1);
+    }
+
+    .cover-title {
+        width: 15em;
+        margin-top: 5em;
+    }
+
+    .logo {
+        width: 10em;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width:1199px) {
+    .hiker {
+        height: 55%;
+        left: 40%;
+        transform: scale(1.1);
+    }
+
+    .cover-title {
+        width: 25em;
+    }
+
+    .logo {
+        width: 7em;
+        margin-top: 2em;
+    }
+}
+
+.hills {
+    z-index: 1;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+}
+
+/*@media (min-width:576px) and (max-width:766.98px) {
+    .cover-title {
+        margin-top: 9.5em;
+        width: 15em;
+    }
+}
+
+@media (min-width:992px) and (max-width:1198.98px) {
+    .cover-title {
+        width: 25em;
+        margin-top: 5em;
+    }
+}
+
+@media (min-width: 1200px){
+	.cover-title{
+		width: 20em;
+	}
+}*/
+@media (max-width:574.98px) {
+}
+
+.moon {
+    width: 20%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.tree-leaves {
+    width: 25em;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.intro {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
